@@ -1,0 +1,350 @@
+:root {
+  --ac-colour: #0033a1;
+  --otr-color: #00b140;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* alert */
+.alert {
+  border: 0px;
+  border-radius: 0px;
+  line-height: 20.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 0px;
+  background-color: #666666;
+}
+
+.alert-link {
+  text-decoration: none;
+  color: #00b140 !important;
+}
+
+.alert-link:hover {
+  color: #0e8d3d !important;
+}
+.exclamation {
+  height: 20px;
+  width: 20px;
+}
+
+/* nav*/
+
+.navbar {
+  background-color: #e6e6e6;
+}
+
+.navcontainer {
+  width: 1200px;
+  height: 30px;
+}
+
+.navfont {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.navfont:hover {
+  color: #11b64d;
+}
+
+/* nav1 */
+
+.logo {
+  max-width: 220px;
+  width: 100%;
+}
+
+.bg-ligh {
+  background-color: white;
+}
+
+.india {
+  font-size: 20px;
+  color: #0033a1;
+}
+
+.nav1font {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  padding: 15px;
+  margin: 5px;
+}
+
+.nav1font:hover {
+  background-color: #0033a0;
+  color: white;
+}
+
+.svg1 {
+  color: #11b64d;
+}
+
+.nav1container {
+  height: 80px;
+  width: 1200px;
+}
+
+/* hero */
+#carouselExampleCaptions .carousel-inner .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 70vh;
+}
+
+.carousel-caption {
+  top: 6rem;
+  text-align: left;
+  left: 10%;
+  right: 10%;
+}
+
+.maintop {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.subtop {
+  font-weight: 500;
+  font-size: large;
+  margin-top: 25px;
+}
+
+.Learnmore {
+  border-radius: 0px;
+  background-color: #11b64d;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}
+
+/* main text */
+
+.maintext {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.maintext1 {
+  line-height: 4rem;
+  color: #0033a0;
+}
+
+/* bluecontainer */
+
+.bluecontainer {
+  background-color: #0033a0;
+
+  color: white;
+}
+
+.bluecontainerinner {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bluecontainer1 {
+  background-color: #0033a0;
+  color: white;
+}
+
+.handsimg {
+  border-radius: 0px;
+  border: 0px;
+  display: block;
+}
+
+.rounded-start {
+  border-bottom-left-radius: 0rem !important;
+  border-top-left-radius: 0rem !important;
+}
+
+.cardbody {
+  padding-top: 3rem;
+}
+
+.cardtext {
+  margin-top: 1rem;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.cardtitle {
+  font-weight: 600;
+}
+
+/* cognizant in India */
+
+.cincon {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2rem;
+  box-sizing: content-box !important;
+  margin-bottom: 5rem;
+}
+
+.cincon h1 {
+  color: #0033a0;
+  font-weight: 600;
+}
+
+.cincon .container .row .col-5 {
+  height: 40vh;
+  object-fit: contain;
+  overflow: hidden;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.cintext {
+  position: absolute;
+  z-index: 999;
+  color: white;
+  bottom: 0px;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.cincon .container {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body row {
+  padding-left: 30px;
+  margin-left: 30px;
+  padding: 30px;
+}
+
+span {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+}
+
+/* Three Vertical Card Section */
+
+.btn_ca {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--otr-color);
+}
+
+/* Three Vertical Card Section End */
+.text-right {
+  float: right;
+  object-fit: unset;
+}
+/* Footer Section */
+
+.foot li a {
+  color: #333333;
+  padding: 0%;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.foot li {
+  list-style-type: none;
+}
+
+.foot h5 {
+  padding-top: 5px;
+}
+
+.foot li a:hover {
+  color: var(--otr-color);
+}
+
+/* Three Vertical Card Section */
+
+.btn_ca {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--otr-color);
+}
+
+/* Three Vertical Card Section End */
+.text-right {
+  float: right;
+  object-fit: unset;
+}
+
+/* Footer Section */
+
+.foot li a {
+  color: #333333;
+  padding: 0%;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.foot li {
+  list-style-type: none;
+}
+
+.foot h5 {
+  padding-top: 5px;
+}
+
+.foot li a:hover {
+  color: var(--otr-color);
+}
+
+/* Footer Section End */
+.cell bg-white {
+  display: flex;
+}
+
+.column1 {
+  float: left;
+  max-width: max-content;
+  width: 35%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  padding: 20px;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card1 {
+  /* this adds the "card" effect */
+  text-align: center;
+  width: 50px;
+  background-color: #f1f1f1;
+}
